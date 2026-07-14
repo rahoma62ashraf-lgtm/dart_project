@@ -1,5 +1,17 @@
-import 'package:dart_project/dart_project.dart' as dart_project;
+void main() {
+  // نحوله لرقم
+  int grade = 100;
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_project.calculate()}!');
+  // نحدد النجاح والتقدير
+  if (grade >= 85) {
+    print("Excellent (A) ");
+  } else if (grade >= 75) {
+    print("Very Good (B) ");
+  } else if (grade >= 65) {
+    print("Good (C)");
+  } else if (grade >= 50) {
+    print("Pass (D)");
+  } else {
+    print("Fail (F) ");
+  }
 }
