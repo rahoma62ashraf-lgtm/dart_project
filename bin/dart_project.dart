@@ -1,8 +1,6 @@
 void main() {
-  // نحوله لرقم
   int grade = 100;
 
-  // نحدد النجاح والتقدير
   if (grade >= 85) {
     print("Excellent (A) ");
   } else if (grade >= 75) {
